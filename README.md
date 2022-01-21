@@ -1,7 +1,6 @@
 # nanoparse
 
-The tiniest argument parser. No fluff!
-
+A tiny **(`1kb`!)** argument parser. No fluff!
 ```js
 import nanoparse from 'nanoparse'
 
