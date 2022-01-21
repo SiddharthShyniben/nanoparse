@@ -1,4 +1,4 @@
-export default function nanoparse(input) {
+export default function nanoargs(input) {
 	let extras = [];
 	let args = input;
 	const _ = [];

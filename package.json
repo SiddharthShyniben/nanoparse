@@ -1,5 +1,5 @@
 {
-  "name": "nanoargs",
+  "name": "nanoparse",
   "version": "1.0.0",
   "description": "A super tiny arg parser",
   "main": "index.min.js",
@@ -11,7 +11,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SiddharthShyniben/nanoargs.git"
+    "url": "git+https://github.com/SiddharthShyniben/nanoparse.git"
   },
   "keywords": [
     "args",
@@ -21,9 +21,9 @@
   "author": "SiddharthShyniben <siddharth.muscat@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SiddharthShyniben/nanoargs/issues"
+    "url": "https://github.com/SiddharthShyniben/nanoparse/issues"
   },
-  "homepage": "https://github.com/SiddharthShyniben/nanoargs#readme",
+  "homepage": "https://github.com/SiddharthShyniben/nanoparse#readme",
   "devDependencies": {
     "xo": "^0.47.0"
   }
