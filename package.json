@@ -1,0 +1,27 @@
+{
+  "name": "nanoargs",
+  "version": "1.0.0",
+  "description": "A super tiny arg parser",
+  "main": "index.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build": "terser index.js --mangle --module -o index.min.js",
+	"prepublish": "npm run build"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiddharthShyniben/nanoargs.git"
+  },
+  "keywords": [
+    "args",
+    "parse-args",
+    "cli"
+  ],
+  "author": "SiddharthShyniben <siddharth.muscat@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SiddharthShyniben/nanoargs/issues"
+  },
+  "homepage": "https://github.com/SiddharthShyniben/nanoargs#readme"
+}
