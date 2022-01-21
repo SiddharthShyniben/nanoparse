@@ -1,3 +1,4 @@
-# node_modules/ no node_modules!
+node_modules/
+# devDeps dont worry
 *.sw*
 *.min.*
