@@ -5,8 +5,8 @@
   "main": "index.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"build": "terser index.js --mangle --module -o index.min.js",
-	"prepublish": "npm run build"
+    "build": "terser index.js --mangle --module -o index.min.js",
+    "prepublish": "npm run build"
   },
   "type": "module",
   "repository": {
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/SiddharthShyniben/nanoargs/issues"
   },
-  "homepage": "https://github.com/SiddharthShyniben/nanoargs#readme"
+  "homepage": "https://github.com/SiddharthShyniben/nanoargs#readme",
+  "devDependencies": {
+    "eslint": "^8.7.0"
+  }
 }
