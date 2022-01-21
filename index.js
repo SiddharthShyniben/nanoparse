@@ -1,4 +1,4 @@
-export default function main(input) {
+export default function(input) {
 	let extras = [];
 	let args = input;
 	const _ = [];
