@@ -4,7 +4,7 @@
   "description": "A super tiny arg parser",
   "main": "index.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "xo",
     "build": "terser index.js --mangle --module -o index.min.js",
     "prepublish": "npm run build"
   },
@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/SiddharthShyniben/nanoargs#readme",
   "devDependencies": {
-    "eslint": "^8.7.0"
+    "xo": "^0.47.0"
   }
 }
