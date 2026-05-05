@@ -1,8 +1,6 @@
-Not currently maintained. Head to ['nuff-said](https://github.com/nuff-said) for a tinier utility!
-
------
-
 # nanoparse
+
+[![CI](https://github.com/SiddharthShyniben/nanoparse/actions/workflows/test.yml/badge.svg)](https://github.com/SiddharthShyniben/nanoparse/actions/workflows/test.yml)
 
 A tiny **(`1kb`!)** argument parser. No fluff!
 ```js
